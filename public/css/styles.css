@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-  
+
 header {
     flex: 0 0 60px;
     display: flex;
@@ -16,13 +16,16 @@ header {
     border-bottom: 1px solid #808080;
     padding: 0 24px;
 }
-  
+
 .main {
     flex: 1 0 auto;
     padding: 24px;
 }
 
-ol, ul { margin-bottom: 1em; }
+ol, ul {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 
 .content {
     display: flex;
